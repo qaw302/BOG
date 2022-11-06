@@ -9,14 +9,11 @@ int main()
     int a,b;
     int sum = 0;
 
-    printf("X: ");
-    scanf("%d\n",&X);
-    printf("N: ");
-    scanf("%d\n",&N);
+    scanf("%d",&X);
+    scanf("%d",&N);
 
     for(int i=0; i < N; i++){
-        printf("a b: ");
-        scanf("%d %d\n",&a, &b);
+        scanf("%d %d",&a, &b);
         sum += a*b;
     }
 
